@@ -1,0 +1,133 @@
+{
+  "dashboard": {
+    "welcome": "नमस्ते कप्तान {{name}}, आपके हैबिटैट डैशबोर्ड में आपका स्वागत है",
+    "subtitle": "सिस्टम स्थिति और त्वरित एक्सेस मॉड्यूल।",
+    "companionWidget": {
+      "title": "MAITRI से बात करें",
+      "subtitle": "चैट और मिशन समर्थन खोलने के लिए टैप करें"
+    },
+    "psycheState": {
+      "title": "मानसिक स्थिति",
+      "status": "केंद्रित"
+    },
+    "missionCadence": {
+      "title": "आज की मिशन ताल",
+      "events": {
+        "briefing": "सुबह की ब्रीफिंग",
+        "systemsCheck": "सिस्टम जांच",
+        "evaPrep": "ईवीए तैयारी",
+        "geoSurvey": "भूविज्ञान सर्वेक्षण"
+      }
+    },
+    "earthLink": {
+      "title": "अर्थ लिंक",
+      "subtitle": "अगला उपलब्ध कनेक्शन"
+    }
+  },
+  "chat": {
+      "placeholder": "MAITRI से चैट करें...",
+      "send": "भेजें",
+      "dictate": "बोलें",
+      "voiceCommands": "वॉइस कमांड"
+  },
+  "roles": {
+      "guardian": "गार्जियन",
+      "coPilot": "सह-पायलट",
+      "storyteller": "कथावाचक",
+      "playmate": "साथी",
+      "companion": "साथी"
+  },
+  "navigation": {
+      "backToDashboard": "डैशबोर्ड पर वापस जाएं",
+      "dashboard": "डैशबोर्ड"
+  },
+  "auth": {
+    "login": "लॉग इन करें",
+    "register": "पंजीकरण करें",
+    "username": "उपयोगकर्ता नाम",
+    "password": "पासवर्ड",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "securityQuestion": "सुरक्षा प्रश्न",
+    "securityAnswer": "सुरक्षा उत्तर",
+    "newPassword": "नया पासवर्ड",
+    "backToLogin": "लॉगिन पर वापस जाएं",
+    "getQuestion": "प्रश्न प्राप्त करें",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "selectQuestion": "एक सुरक्षा प्रश्न चुनें...",
+    "needAccount": "खाता नहीं है? पंजीकरण करें"
+  },
+  "settings": {
+    "title": "कंट्रोल पैनल",
+    "notifications": "सह-पायलट सूचनाएं",
+    "voice": "MAITRI की आवाज़",
+    "video": "मेरा वीडियो फ़ीड दिखाएं",
+    "language": "भाषा",
+    "defaultVoice": "डिफ़ॉल्ट",
+    "logout": "लॉग आउट करें",
+    "close": "बंद करें"
+  },
+  "guardian": {
+      "psycheMatrixTitle": "मानसिक-स्थिति मैट्रिक्स",
+      "initializing": "बायोमेट्रिक सेंसर शुरू हो रहे हैं...",
+      "stress": "तनाव स्तर",
+      "fatigue": "वोकल थकान",
+      "massProtocolTitle": "MASS प्रोटोकॉल वर्कआउट",
+      "symptomLoggerTitle": "लक्षण लकड़हारा",
+      "logSymptomPlaceholder": "लक्षणों का वर्णन करें...",
+      "dictate": "बोलें",
+      "start": "शुरू करें",
+      "sleepOptimizerTitle": "सर्कैडियन रिदम ऑप्टिमाइज़र",
+      "sleepOptimizerDesc": "शांत साउंडस्केप के साथ नींद का सत्र शुरू करें।",
+      "startSleepSession": "नींद का सत्र शुरू करें",
+      "capturePhoto": "फोटो खींचे",
+      "recapturePhoto": "फिर से फोटो खींचे",
+      "photoAttached": "फोटो संलग्न",
+      "logAndAnalyze": "लॉग और विश्लेषण करें"
+  },
+  "copilot": {
+      "assistantTitle": "प्रक्रिया सहायक",
+      "loading": "प्रक्रियाएं लोड हो रही हैं...",
+      "start": "शुरू करें",
+      "previous": "पिछला",
+      "next": "अगला",
+      "completed": "प्रक्रिया पूरी हुई",
+      "completedSubtitle": "सभी सिस्टम सामान्य हैं। अगले कार्य के लिए तैयार।",
+      "startPrompt": "प्री-फ्लाइट चेकलिस्ट शुरू करने के लिए तैयार।",
+      "voiceCommands": "आगे बढ़ने के लिए \"Confirm\" या \"Repeat\" कहें।",
+      "alert": "चेतावनी: आगामी कार्य '{{task}}' {{time}} मिनट में।",
+      "schedulerTitle": "इंटरैक्टिव अनुसूचक",
+      "schedulerPrompt": "आप कल की अनुसूची में कार्य जोड़ सकते हैं।",
+      "tomorrowsCadence": "कल की ताल",
+      "noTasks": "अभी तक कोई कार्य निर्धारित नहीं है।"
+  },
+  "storyteller": {
+      "diaryTitle": "कप्तान का लॉग",
+      "entryPlaceholder": "अपनी लॉग प्रविष्टि शुरू करें...",
+      "dictate": "बोलें",
+      "dictating": "बोल रहा है...",
+      "recording": "रिकॉर्डिंग...",
+      "stopRecording": "रिकॉर्डिंग बंद करें",
+      "recordLog": "वीडियो लॉग रिकॉर्ड करें",
+      "generateLegacy": "विरासत लॉग उत्पन्न करें",
+      "createMessage": "अर्थ लिंक संदेश बनाएं",
+      "legacyResult": "उत्पन्न विरासत लॉग",
+      "earthlinkResult": "उत्पन्न अर्थलिंक संदेश",
+      "generating": "MAITRI लिख रही है...",
+      "savedLogs": "सहेजे गए मीडिया लॉग",
+      "sensoryTitle": "संवेदी विसर्जन",
+      "sensoryDesc": "एक स्मृति के आधार पर एक immersive अनुभव सक्रिय करें।",
+      "activateSanctuary": "अभयारण्य सक्रिय करें",
+      "modalTitle": "संवेदी अभयारण्य सक्रिय करें",
+      "modalDesc": "किसी स्मृति से किसी स्थान, स्वाद या गंध का वर्णन करें।",
+      "memoryPlaceholder": "जैसे, 'मेरे गृ Hometown में गर्म फुटपाथ पर बारिश की गंध...'",
+      "modalCancel": "रद्द करें",
+      "modalConfirm": "सक्रिय करें"
+  },
+    "pomodoro": {
+    "title": "M.A.S.S. प्रोटोकॉल टाइमर",
+    "start": "शुरू करें",
+    "pause": "रोकें",
+    "reset": "रीसेट",
+    "close": "बंद करें"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "dashboard": {
+    "title": "Habitat Dashboard",
+    "subtitle": "System status and quick access modules.",
+    "companionWidget": {
+      "title": "Talk to MAITRI",
+      "subtitle": "Tap to open chat and mission support"
+    },
+    "psycheState": {
+      "title": "Psyche State",
+      "status": "Focused"
+    },
+    "missionCadence": {
+      "title": "Mission Cadence",
+      "events": {
+        "briefing": "Morning Briefing",
+        "systemsCheck": "Systems Check",
+        "evaPrep": "EVA Prep",
+        "geoSurvey": "Geology Survey"
+      }
+    },
+    "earthLink": {
+      "title": "Earth Link",
+      "subtitle": "Next available connection"
+    },
+    "themeControl": {
+        "title": "Display Control",
+        "accent": "Select accent color",
+        "language": "Select language",
+        "blueAria": "Select Earthrise blue theme",
+        "redAria": "Select Mission alert red theme",
+        "greenAria": "Select System nominal green theme"
+    }
+  },
+  "chat": {
+    "placeholder": "Chat with MAITRI...",
+    "send": "Send",
+    "dictate": "Dictate",
+    "inputAriaLabel": "Chat input",
+    "voiceInputAriaLabel": "Toggle voice input",
+    "sendAriaLabel": "Send message",
+    "voiceCommands": "Voice Commands"
+  },
+  "roles": {
+      "guardian": "Guardian",
+      "coPilot": "Co-Pilot",
+      "storyteller": "Storyteller",
+      "playmate": "Playmate",
+      "companion": "Companion"
+  },
+  "navigation": {
+      "backToDashboard": "Back to Dashboard",
+      "dashboard": "Dashboard"
+  },
+  "onboarding": {
+    "title": "Welcome, Captain.",
+    "prompt": "What should I call you?",
+    "placeholder": "Enter your name...",
+    "button": "Proceed"
+  },
+  "guardian": {
+      "psycheMatrixTitle": "Psyche-State Matrix",
+      "initializing": "Initializing biometric sensors...",
+      "stress": "Stress Level",
+      "fatigue": "Vocal Fatigue",
+      "massProtocolTitle": "MASS Protocol Workout",
+      "symptomLoggerTitle": "Symptom Logger",
+      "logSymptomPlaceholder": "Describe symptoms... (e.g., 'dull headache behind my eyes')",
+      "dictate": "Dictate",
+      "log": "Log",
+      "analyzing": "Analyzing...",
+      "analyze": "Analyze Symptom",
+      "analysisResult": "Preliminary Analysis",
+      "start": "Start",
+      "sleepOptimizerTitle": "Circadian Rhythm Optimizer",
+      "sleepOptimizerDesc": "Initiate a sleep session with calming soundscapes to promote restful sleep.",
+      "startSleepSession": "Start Sleep Session",
+      "capturePhoto": "Capture Photo",
+      "recapturePhoto": "Re-capture Photo",
+      "photoAttached": "Photo attached",
+      "logAndAnalyze": "Log & Analyze"
+  },
+  "copilot": {
+      "assistantTitle": "Procedure Assistant",
+      "loading": "Loading procedures...",
+      "start": "Start",
+      "previous": "Previous",
+      "next": "Next",
+      "completed": "Procedure Completed",
+      "completedSubtitle": "All systems are nominal. Ready for next task.",
+      "startPrompt": "Ready to begin pre-flight checklist.",
+      "voiceCommands": "Say \"Confirm\" or \"Repeat\" to proceed.",
+      "alert": "Alert: Upcoming task '{{task}}' in {{time}} minutes.",
+      "schedulerTitle": "Interactive Scheduler",
+      "schedulerPrompt": "You can add tasks to tomorrow's schedule. For example, 'Add a geology survey for 14:30'.",
+      "tomorrowsCadence": "Tomorrow's Cadence",
+      "noTasks": "No tasks scheduled yet."
+  },
+  "storyteller": {
+      "diaryTitle": "Captain's Log",
+      "entryPlaceholder": "Start your log entry...",
+      "dictate": "Dictate",
+      "dictating": "Dictating...",
+      "recording": "Recording...",
+      "stopRecording": "Stop Recording",
+      "recordLog": "Record Video Log",
+      "generateLegacy": "Generate Legacy Log",
+      "createMessage": "Create Earth Link Message",
+      "legacyResult": "Generated Legacy Log",
+      "earthlinkResult": "Generated EarthLink Message",
+      "generating": "MAITRI is writing...",
+      "savedLogs": "Saved Media Logs",
+      "sensoryTitle": "Sensory Immersion",
+      "sensoryDesc": "Combat sensory monotony by activating an immersive experience based on a memory.",
+      "activateSanctuary": "Activate Sanctuary",
+      "modalTitle": "Activate Sensory Sanctuary",
+      "modalDesc": "Describe a place, taste, or smell from a memory. MAITRI will generate an immersive experience.",
+      "memoryPlaceholder": "e.g., 'The smell of rain on hot pavement in my hometown...'",
+      "modalCancel": "Cancel",
+      "modalConfirm": "Activate"
+  },
+  "pomodoro": {
+    "title": "M.A.S.S. Protocol Timer",
+    "start": "Start",
+    "pause": "Pause",
+    "reset": "Reset",
+    "close": "Close"
+  }
+}

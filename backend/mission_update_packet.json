@@ -1,0 +1,11 @@
+{
+  "workoutPlan": [
+    { "id": "ac", "name": "A-G Cardio Sprint 3x10", "duration": 15 },
+    { "id": "vr", "name": "VR Obstacle Course", "duration": 30 },
+    { "id": "cs", "name": "Core Stability Protocol", "duration": 20 }
+  ],
+  "nextMissionObjective": "Recalibrate the secondary communications array.",
+  "personalMessages": [
+    "Message from Mission Control: Keep up the great work. Your geological samples from sector Gamma have been invaluable."
+  ]
+}

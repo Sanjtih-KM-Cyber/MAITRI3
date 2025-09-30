@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAITRI AI Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-landmarks-detection"></script>
+    
+    <style>
+      :root {
+        --font-sans: 'Inter', system-ui, sans-serif;
+        --background-color: #0A0A1A;
+        --primary-text-color: #EAEAEA;
+        --secondary-text-color: #888899;
+        
+        /* Default 'Earthrise' blue theme */
+        --primary-accent-color: #4A90E2;
+        --widget-background-color: rgba(20, 20, 40, 0.7);
+        --widget-border-color: rgba(74, 144, 226, 0.3);
+        --glow-color: rgba(74, 144, 226, 0.5);
+      }
+      body {
+        background-color: var(--background-color);
+        color: var(--primary-text-color);
+        font-family: var(--font-sans);
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transition: background-color 0.5s ease;
+      }
+
+      /* Sanctuary Theme */
+      body.sanctuary-active {
+        --background-color: #0c001f;
+        --primary-accent-color: #a988ff;
+        --widget-background-color: rgba(38, 20, 68, 0.7);
+        --widget-border-color: rgba(169, 136, 255, 0.3);
+        --glow-color: rgba(169, 136, 255, 0.5);
+        background-image: radial-gradient(circle at top left, rgba(169, 136, 255, 0.1), transparent 30%),
+                          radial-gradient(circle at bottom right, rgba(74, 144, 226, 0.1), transparent 40%);
+        background-attachment: fixed;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "i18next": "https://aistudiocdn.com/i18next@^25.5.2",
+    "react-i18next": "https://aistudiocdn.com/react-i18next@^16.0.0",
+    "i18next-http-backend": "https://aistudiocdn.com/i18next-http-backend@^2.5.2",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "process": "https://aistudiocdn.com/process@^0.11.10",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "fs/": "https://aistudiocdn.com/fs@^0.0.1-security/",
+    "bcrypt": "https://aistudiocdn.com/bcrypt@^6.0.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

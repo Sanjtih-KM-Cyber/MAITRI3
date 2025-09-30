@@ -1,0 +1,8 @@
+{
+  "name": "MAITRI AI Companion",
+  "description": "An AI companion interface for astronauts, providing a calm and focused digital habitat dashboard and chat functionality.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

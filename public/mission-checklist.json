@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Pressurize Suit",
+        "details": "Ensure all seals are secure.\nActivate primary oxygen supply and monitor pressure gauge until it reaches 4.3 psi.\nConfirm green light on the console."
+    },
+    {
+        "id": 2,
+        "title": "Communications Check",
+        "details": "Activate helmet communications.\nPerform a radio check with MAITRI on primary channel.\nVerify secondary channel is clear."
+    },
+    {
+        "id": 3,
+        "title": "Helmet & Visor Check",
+        "details": "Lock helmet into neck ring. Listen for audible click.\nLower and seal the protective visor.\nConfirm HUD is active and displaying vitals."
+    },
+    {
+        "id": 4,
+        "title": "Airlock Depressurization",
+        "details": "Seal inner airlock door.\nInitiate depressurization sequence from the wall panel.\nWait for pressure to equalize with exterior environment."
+    },
+    {
+        "id": 5,
+        "title": "Open Outer Hatch",
+        "details": "Once depressurization is complete and confirmed, unlatch and open the outer airlock hatch.\nProceed with EVA mission."
+    }
+]
